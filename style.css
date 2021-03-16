@@ -1,0 +1,22 @@
+@font-face{
+    src: url("font/Roboto-Regular.ttf");
+    font-family: roboto;
+}
+
+body{
+    font-family: roboto;
+    background-color: #212529;
+    font-size: 20px;
+}
+
+h1{
+    font-weight: 800;
+}
+
+.myTable{
+    height: 500px;
+}
+
+table tr td:first-child, table tr td:last-child{
+    background-color: #2c2c2f;
+}
